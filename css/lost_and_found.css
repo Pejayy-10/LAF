@@ -1,7 +1,7 @@
-
 /* Adjust main content to make space for sidebar and fixed search */
 .content, #lost-and-found-section {
     min-height: calc(100vh - 70px);
+    padding-top: 80px;
 }
 
 /* Fixed Search bar styles */
@@ -41,6 +41,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: -10px;
+    padding-top: 20px;
 }
 
 .card-view .col-md-3 {
@@ -140,6 +141,6 @@
     }
     
     .content, #lost-and-found-section {
-        margin-left: 0;
+        padding-top: 70px;
     }
 }

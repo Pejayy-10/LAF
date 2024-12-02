@@ -9,7 +9,6 @@ $selectedCategories = isset($_GET['categories']) ? $_GET['categories'] : [];
 // Fetch categories directly
 $categories = $itemInstance->fetchCategories();
 ?>
-<link rel="stylesheet" href="../css/user_sidebar.css">
 <div class="sidebar">
     <h3>Filter</h3>
     <div>
@@ -58,5 +57,16 @@ $categories = $itemInstance->fetchCategories();
             }
             window.location.href = url;
         }
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        const sidebar = document.querySelector('.sidebar');
+        const toggleBtn = document.createElement('button');
+        toggleBtn.className = 'toggle-sidebar-btn';
+        toggleBtn.innerText = '☰';
+        document.body.appendChild(toggleBtn);
+
+        toggleBtn.addEventListener('click', function() {
+            sidebar.classList.toggle('active');
+        });
     });
 </script>
