@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/Item.class.php';
+require_once '../classes/Item.class.php';
 $itemInstance = new Item();
 
 // Get current filter values

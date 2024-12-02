@@ -17,18 +17,18 @@
                         <span class="nav-link" style="color: #C7253E; font-weight: bold;">Welcome, <?= htmlspecialchars($_SESSION['username']) ?>!</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="user/hero.html" id="Home" role="button" style="color: #C7253E; font-weight: bold;">
+                        <a class="nav-link" id="Home" role="button" style="color: #C7253E; font-weight: bold;">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="Home" role="button" style="color: #C7253E; font-weight: bold;">
+                        <a class="nav-link" id="lost-and-found-link" role="button" style="color: #C7253E; font-weight: bold;">
                             Lost and Found
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="report-btn" role="button" style="color: #C7253E; font-weight: bold;">
-                            Report Item
+                        Report Item
                         </a>
                     </li>
                     <li class="nav-item">

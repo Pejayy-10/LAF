@@ -13,6 +13,7 @@
     <script src="js/report.js"></script>
     <script src="js/main.js"></script>
     <script src="js/search.js"></script>
+    <script src="js/ajax.js"></script>
     
     <script>
         $(document).ready(function() {

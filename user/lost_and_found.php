@@ -1,4 +1,10 @@
 <?php
+require_once '../classes/Item.class.php';
+require_once '../classes/Claim.class.php';
+
+$item = new Item(); // Initialize Item class
+$claimInstance = new Claim(); // Create an instance of the Claim class
+
 // Get filter and search parameters
 $filterType = isset($_GET['filter']) ? $_GET['filter'] : 'all';
 $selectedCategories = isset($_GET['categories']) ? $_GET['categories'] : [];
@@ -41,7 +47,7 @@ $currentPage = max(1, min($currentPage, $totalPages));
 $startIndex = ($currentPage - 1) * $itemsPerPage;
 $currentItems = array_slice($allItems, $startIndex, $itemsPerPage);
 ?>
-<?php require_once 'includes_user_side/sidebar.php';?>
+<?php require_once '../includes_user_side/sidebar.php';?>
 
 <!-- Search Bar -->
 <div class="search-container mb-4">

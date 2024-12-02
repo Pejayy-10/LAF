@@ -140,3 +140,8 @@ section p {
     object-fit: cover; 
     border-radius: 5px; 
 }
+
+.nav-link.active {
+    background-color: #C7253E; /* Example background color */
+    color: white !important; 
+}
