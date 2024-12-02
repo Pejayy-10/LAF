@@ -1,7 +1,7 @@
 
 /* Adjust main content to make space for sidebar and fixed search */
 .content, #lost-and-found-section {
-    min-height: calc(100vh - 70px); /* Add space for fixed search bar */
+    min-height: calc(100vh - 70px);
 }
 
 /* Fixed Search bar styles */

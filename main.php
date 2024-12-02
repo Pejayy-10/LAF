@@ -15,7 +15,7 @@ $claimInstance = new Claim(); // Create an instance of the Claim class
     <!-- Content -->
     <div class="content">   
     <!-- testing lng ni pj kay wla nako na himo ajax sila, pero working na -->
-        <?php require_once 'user/lost_and_found.php';?> 
+        <?php require_once 'user/hero.html';?> 
     </div>
     
     <!-- Dynamic Modal Container -->
