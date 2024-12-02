@@ -1,0 +1,152 @@
+.hero-section {
+    position: relative;
+    background: linear-gradient(-45deg, #D32F2F, #FF5252, #B71C1C, #F44336);
+    background-size: 400% 400%;
+    background-position: center;
+    color: white;
+    padding: 150px 0;
+    z-index: 1;
+    overflow: hidden;
+    animation: gradientBG 15s ease infinite;
+    min-height: 70vh;
+}
+
+.feature-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 15px 0;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #2c3e50;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #4a90e2;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.how-it-works-section {
+    position: relative;
+    background: white;
+    padding-top: 150px;
+    margin-top: -100px;
+    border-radius: 50px 50px 0 0;
+    z-index: 2;
+    transition: transform 0.3s ease;
+    box-shadow: 0 -20px 30px rgba(0,0,0,0.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #357abd;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.typing-text {
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(14) infinite,
+               blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    0%, 50%, 100% {
+        width: 0;
+    }
+    25%, 75% {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+.text-container {
+    height: 80px; /* Adjust based on your needs */
+    display: flex;
+    justify-content: center;
+}
