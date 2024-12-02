@@ -1,0 +1,90 @@
+ <section>
+            <h2 class="text-danger mb-3">Lost Items</h2>
+            <div class="row">
+                <?php if (!empty($lostItems)) : ?>
+                    <?php foreach ($lostItems as $item) :
+                        $claimStatus = $claimInstance->fetchClaimStatus($item['item_id'], 'lost');
+                        ?>
+                        <div class="col-md-4 mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?= htmlspecialchars($item['description']) ?></h5>
+                                    <p class="card-text">
+                                        <strong>Reported By:</strong> <?= htmlspecialchars($item['reporter_name']) ?><br>
+                                        <strong>Location:</strong> <?= htmlspecialchars($item['location']) ?><br>
+                                        <strong>Date Lost:</strong> <?= htmlspecialchars($item['date_lost']) ?>
+                                    </p>
+
+                                    <?php if ($item['image']): ?>
+                                        <img src="<?= htmlspecialchars($item['image']) ?>" alt="Lost Item Image" class="img-fluid mb-2">
+                                    <?php else: ?>
+                                        <p>Image not available</p>
+                                    <?php endif; ?>
+
+                                    <!-- Display claim status -->
+                                    <?php if ($claimStatus): ?>
+                                        <p class="text-warning"><strong>Claim Status:</strong> <?= htmlspecialchars($claimStatus['status']) ?></p>
+                                    <?php endif; ?>
+
+                                    <div class="d-flex justify-content-between">
+                                    <button class="btn btn-success btn-sm claim-btn" 
+                                        data-item-id="<?= htmlspecialchars($item['item_id']) ?>" 
+                                        data-item-type="lost">
+                                        Claim
+                                    </button>
+                                        <button class="btn btn-danger btn-sm details-btn" data-id="<?= $item['item_id'] ?>">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php else : ?>
+                    <p>No lost items available at the moment.</p>
+                <?php endif; ?>
+            </div>
+        </section>
+
+        <!-- Found Items Section -->
+        <section>
+            <h2 class="text-primary mb-3">Found Items</h2>
+            <div class="row">
+                <?php if (!empty($foundItems)) : ?>
+                    <?php foreach ($foundItems as $item) :
+                        $claimStatus = $claimInstance->fetchClaimStatus($item['item_id'], 'found');
+                        ?>
+                        <div class="col-md-4 mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?= htmlspecialchars($item['description']) ?></h5>
+                                    <p class="card-text">
+                                        <strong>Reported By:</strong> <?= htmlspecialchars($item['reporter_name']) ?><br>   
+                                        <strong>Location:</strong> <?= htmlspecialchars($item['location']) ?><br>
+                                        <strong>Date Found:</strong> <?= htmlspecialchars($item['date_found']) ?>
+                                    </p>
+                                    <?php if ($item['image']): ?>
+                                        <img src="<?= htmlspecialchars($item['image']) ?>" alt="Found Item Image" class="img-fluid mb-2">
+                                    <?php else: ?>
+                                        <p>Image not available</p>
+                                    <?php endif; ?>
+                                    <!-- Display claim status -->
+                                    <?php if ($claimStatus): ?>
+                                        <p class="text-warning"><strong>Claim Status:</strong> <?= htmlspecialchars($claimStatus['status']) ?></p>
+                                    <?php endif; ?>
+
+                                    <div class="d-flex justify-content-between">
+                                    <button class="btn btn-success btn-sm claim-btn" 
+                                        data-item-id="<?= htmlspecialchars($item['item_id']) ?>" 
+                                        data-item-type="found">
+                                        Claim
+                                    </button>
+                                        <button class="btn btn-primary btn-sm details-btn" data-id="<?= $item['item_id'] ?>">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php else : ?>
+                    <p>No found items available at the moment.</p>
+                <?php endif; ?>
+            </div>
+        </section>

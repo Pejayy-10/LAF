@@ -1,0 +1,19 @@
+Added Files:
+    - fetch_user_details.php
+    - edit_user_details.php
+    - update_user.php
+    - manage_user.php
+    - fetch_category.php
+    - edit_user.html
+    - login.css
+    - signup.css
+    - manage_categories.php
+Added Function:
+    manage_user.php
+        - function updateUser(userId)
+        - function editUser(userId)
+File that are changed:
+    - login.php
+    - register.php
+
+kani ra pj, patotoy beh

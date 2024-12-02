@@ -1,0 +1,1697 @@
+Array
+(
+    [item_id] => 10
+    [item_type] => found
+    [text_proof] => Secret
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 465593564_1110075781128355_5632274066023368133_n.jpg
+            [full_path] => 465593564_1110075781128355_5632274066023368133_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpED2D.tmp
+            [error] => 0
+            [size] => 661755
+        )
+
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php1521.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php1A24.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php1CB5.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php1E3D.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php24A6.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php2543.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php2600.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php2862.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php29DA.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php2AB6.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php4DC0.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php4E3E.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php4ECB.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php4FA7.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php541D.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php7DDD.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php7F65.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php7FF3.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 9
+    [item_type] => lost
+    [text_proof] => me
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => Avocado and Artichoke.png
+            [full_path] => Avocado and Artichoke.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php80CE.tmp
+            [error] => 0
+            [size] => 953625
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2930.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2D38.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2E62.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php3047.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php30D5.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php3163.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php31F0.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php325F.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php32BD.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php330C.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php38AB.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php3AA0.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 10
+    [item_type] => lost
+    [text_proof] => sad
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php8046.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 10
+    [item_type] => lost
+    [text_proof] => sad
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php827A.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 10
+    [item_type] => lost
+    [text_proof] => sad
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php82F8.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 10
+    [item_type] => lost
+    [text_proof] => sad
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php83D4.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 10
+    [item_type] => lost
+    [text_proof] => sad
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php489C.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php9D5C.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php9E95.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php9F42.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php9FC0.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA04E.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA0FB.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA1E6.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA39C.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpADA0.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpAE3D.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpAEDA.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpAF78.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB063.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB258.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB45D.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB661.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB808.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB9CE.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpBBC3.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpC162.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpC4DD.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE4F2.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE570.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE5FE.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE68C.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE767.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE99B.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpEC6B.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpEEEC.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF0E1.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF2A7.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF42F.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF5D6.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF70F.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF7AD.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF84A.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF8B8.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF936.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF985.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF9E4.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFA43.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFAA2.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFAF1.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFC1B.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 121
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFD64.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4B27.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4BB5.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4C42.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4CD0.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4DCB.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => found
+    [text_proof] => as
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php5137.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
+Array
+(
+    [item_id] => 11
+    [item_type] => lost
+    [text_proof] => 12
+)
+Array
+(
+    [image_proof] => Array
+        (
+            [name] => 462574211_920624496293111_227092195691302074_n.jpg
+            [full_path] => 462574211_920624496293111_227092195691302074_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE839.tmp
+            [error] => 0
+            [size] => 304375
+        )
+
+)
