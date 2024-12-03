@@ -1,0 +1,42 @@
+<div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="profileModalLabel">Profile View</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="position-relative text-center mb-3">
+                    <div class="profile-image mx-auto">
+                        <img id="profile-preview" src="../profile settings/sample.png" alt="Profile Picture" class="img-fluid rounded-circle">
+                        <div class="edit-overlay">
+                            <label for="profile_pic" class="edit-pic-btn">
+                                <i class="fas fa-pen"></i>
+                            </label>
+                        </div>
+                        <input type="file" id="profile_pic" class="d-none" accept="image/*" onchange="handleProfilePicChange(event)">
+                    </div>
+                </div>
+                <div class="form-group position-relative mb-4">
+                    <input type="text" class="custom-input" id="username" value="Sample" disabled>
+                    <label for="username" class="form-label">Username</label>
+                </div>
+                <div class="form-group position-relative mb-4">
+                    <input type="email" class="custom-input" id="email" value="Sample" disabled>
+                    <label for="email" class="form-label">Email</label>
+                </div>
+                <div class="form-group position-relative mb-4">
+                    <input type="tel" class="custom-input" id="phone" value="Sample" disabled>
+                    <label for="phone" class="form-label">Phone Number</label>
+                </div>
+                <div class="form-group position-relative mb-4">
+                    <input type="url" class="custom-input" id="facebook" value="Sample" disabled onclick="visitFacebook(event)">
+                    <label for="facebook" class="form-label">Facebook Profile Link</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="mainEditBtn" class="btn btn-danger" onclick="toggleEditMode()">Edit</button>
+            </div>
+        </div>
+    </div>
+</div>
