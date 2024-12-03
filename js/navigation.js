@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('a.nav-link:contains("Home")').addClass('active');
 
     // Handle navigation clicks
-    $('.nav-link:not(#report-btn):not(.dropdown-toggle)').on('click', function(e) {
+    $('.nav-link:not(#report-btn):not(.dropdown-toggle):not([href*="auth.php"])').on('click', function(e) {
         e.preventDefault();
         
         // Remove active class from all nav links

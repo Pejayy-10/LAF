@@ -14,7 +14,7 @@
             <ul class="navbar-nav ms-auto d-flex align-items-center">
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <li class="nav-item">
-                        <span class="nav-link" style="color: #C7253E; font-weight: bold;">Welcome, <?= htmlspecialchars($_SESSION['username']) ?>!</span>
+                        <span class="welcome-text" style="color: #C7253E; font-weight: bold;">Welcome, <?= htmlspecialchars($_SESSION['username']) ?>!</span>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="user/hero.html" id="Home" role="button" style="color: #C7253E; font-weight: bold;">
