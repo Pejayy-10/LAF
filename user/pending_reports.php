@@ -23,6 +23,22 @@ $userLostItems = array_filter($lostItems, function($item) use ($userId) {
 $userFoundItems = array_filter($foundItems, function($item) use ($userId) {
     return $item['user_id'] == $userId;
 });
+
+// After the user filtering code
+$allItems = array_merge($userLostItems, $userFoundItems);
+
+// Calculate pagination
+$itemsPerPage = 8;
+$totalItems = count($allItems);
+$totalPages = ceil($totalItems / $itemsPerPage);
+
+// Get current page
+$currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+$currentPage = max(1, min($currentPage, $totalPages));
+
+// Get items for current page
+$startIndex = ($currentPage - 1) * $itemsPerPage;
+$currentItems = array_slice($allItems, $startIndex, $itemsPerPage);
 ?>
 <style>
     .hover-effect {
@@ -85,7 +101,7 @@ $userFoundItems = array_filter($foundItems, function($item) use ($userId) {
                             $allItems[] = $item;
                         }
                         
-                        foreach ($allItems as $report) : 
+                        foreach ($currentItems as $report) : 
                             $isLost = $report['type'] === 'lost';
                         ?>
                             <div class="col-md-4 mb-3">
@@ -129,13 +145,13 @@ $userFoundItems = array_filter($foundItems, function($item) use ($userId) {
                                         <div class="d-flex justify-content-between mt-3">
                                             <button class="btn btn-sm complete-report" 
                                                     data-id="<?= $report['item_id'] ?>" 
-                                                    data-type="<?= $isLost ? 'lost' : 'found' ?>"
+                                                    data-type="lost"
                                                     style="background-color: #198754; color: white;">
                                                 Complete
                                             </button>
                                             <button class="btn btn-sm cancel-report" 
                                                     data-id="<?= $report['item_id'] ?>" 
-                                                    data-type="<?= $isLost ? 'lost' : 'found' ?>"
+                                                    data-type="lost"
                                                     style="background-color: #C7253E; color: white;">
                                                 Cancel
                                             </button>
@@ -145,9 +161,55 @@ $userFoundItems = array_filter($foundItems, function($item) use ($userId) {
                             </div>
                         <?php endforeach; ?>
                     <?php else : ?>
-                        <div class="col-12 text-center">
-                            <p class="text-muted">No pending reports available.</p>
-                        </div>
+                        <p class="text-center">No lost item reports.</p>
+                    <?php endif; ?>
+                </div>
+            </section>
+
+            <!-- Found Items Reports -->
+            <section>
+                <h3 class="text-primary mb-3">Found Item Reports</h3>
+                <div class="row">
+                    <?php if (!empty($userFoundItems)) : ?>
+                        <?php foreach ($userFoundItems as $report) : ?>
+                            <div class="col-md-4 mb-3">
+                                <div class="card shadow-sm">
+                                    <?php if ($report['image']): ?>
+                                        <img src="<?= htmlspecialchars($report['image']) ?>" class="card-img-top" alt="Found Item Image" style="height: 200px; object-fit: cover;">
+                                    <?php else: ?>
+                                        <div class="text-center p-3 bg-light" style="height: 200px;">No Image Available</div>
+                                    <?php endif; ?>
+                                    
+                                    <div class="card-body">
+                                        <span class="badge bg-primary mb-2">Found Item</span>
+                                        <h5><?= $report['item_id'] ?></h5>
+                                        <div class="card-text">
+                                            <p class="mb-1"><strong>Category:</strong> <?= htmlspecialchars($report['category_name']) ?></p>
+                                            <p class="mb-1"><strong>Location:</strong> <?= htmlspecialchars($report['location']) ?></p>
+                                            <p class="mb-1"><strong>Date Found:</strong> <?= htmlspecialchars($report['date_found']) ?></p>
+                                            <p class="mb-1">
+                                                <strong>Status:</strong> 
+                                                <span class="badge bg-secondary">Pending</span>
+                                            </p>
+                                        </div>
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <button class="btn btn-success btn-sm complete-report" 
+                                                    data-id="<?= $report['item_id'] ?>" 
+                                                    data-type="found">
+                                                Complete
+                                            </button>
+                                            <button class="btn btn-danger btn-sm cancel-report" 
+                                                    data-id="<?= $report['item_id'] ?>" 
+                                                    data-type="found">
+                                                Cancel
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php else : ?>
+                        <p class="text-center">No found item reports.</p>
                     <?php endif; ?>
                 </div>
             </section>

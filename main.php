@@ -13,9 +13,8 @@ $claimInstance = new Claim(); // Create an instance of the Claim class
     <?php require_once 'includes_user_side/topnav.php';?>
     <!-- kung gusto ka adto sa hero press lng ang home, pero not pa siya ajax -->
     <!-- Content -->
-    <div class="content">   
-    <!-- testing lng ni pj kay wla nako na himo ajax sila, pero working na -->
-        <?php require_once 'user/hero.html';?> 
+    <div id="content" class="content">   
+        <!-- Dynamic content will be loaded here -->
     </div>
     
     <!-- Dynamic Modal Container -->

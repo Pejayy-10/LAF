@@ -50,7 +50,7 @@
     transform: translateX(-50%);
     width: 50px;
     height: 3px;
-    background: #4a90e2;
+    background: #dc3545;
 }
 
 body {
@@ -98,7 +98,7 @@ html {
 }
 
 .btn-primary {
-    background-color: #4a90e2;
+    background-color: #dc3545;
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
@@ -106,9 +106,9 @@ html {
 }
 
 .btn-primary:hover {
-    background-color: #357abd;
+    background-color: #b71c1c;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+    box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3);
 }
 
 @keyframes gradientBG {
@@ -149,4 +149,12 @@ html {
     height: 80px; /* Adjust based on your needs */
     display: flex;
     justify-content: center;
+}
+
+.text-primary {
+    color: #dc3545 !important;
+}
+
+.feature-card i.text-primary {
+    color: #dc3545 !important;
 }

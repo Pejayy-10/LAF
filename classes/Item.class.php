@@ -176,5 +176,41 @@ class Item {
         $stmt->execute([$itemId]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
+
+    public function fetchCompletedItems($userId) {
+        try {
+            $sql = "SELECT i.*, c.name as category_name, 
+                    DATE_FORMAT(i.date_completed, '%M %d, %Y') as completed_date
+                    FROM items i 
+                    LEFT JOIN categories c ON i.category_id = c.category_id
+                    WHERE i.user_id = ? AND i.status = 'completed'
+                    ORDER BY i.date_completed DESC";
+                    
+            $stmt = $this->db->connect()->prepare($sql);
+            $stmt->execute([$userId]);
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            error_log("Error fetching completed items: " . $e->getMessage());
+            return [];
+        }
+    }
+
+    public function fetchCancelledItems($userId) {
+        try {
+            $sql = "SELECT i.*, c.name as category_name,
+                    DATE_FORMAT(i.date_cancelled, '%M %d, %Y') as cancelled_date
+                    FROM items i 
+                    LEFT JOIN categories c ON i.category_id = c.category_id
+                    WHERE i.user_id = ? AND i.status = 'cancelled'
+                    ORDER BY i.date_cancelled DESC";
+                    
+            $stmt = $this->db->connect()->prepare($sql);
+            $stmt->execute([$userId]);
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            error_log("Error fetching cancelled items: " . $e->getMessage());
+            return [];
+        }
+    }
 }
 ?>

@@ -12,10 +12,6 @@
     transition: transform 0.3s ease;
 }
 
-.content, #lost-and-found-section {
-    margin-left: 250px;
-    min-height: calc(100vh - 70px);
-}
 
 @media (max-width: 992px) {
     .sidebar {
