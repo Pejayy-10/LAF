@@ -42,7 +42,7 @@
                             <img src="uploads/profile/profile-pic.jpg" alt="Profile" class="rounded-circle" style="width: 40px; height: 40px;">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
-                            <li><a class="dropdown-item" href="profile.php" style="color: #C7253E; transition: all 0.3s;">Profile View</a></li>
+                            <li><a class="dropdown-item" href="#" id="openProfileModal" style="color: #C7253E; transition: all 0.3s;">Profile View</a></li>
                             <li><a class="dropdown-item" href="report_history.php" style="color: #C7253E; transition: all 0.3s;">Report History</a></li>
                             <li><a class="dropdown-item" href="pending_reports.php" style="color: #C7253E; transition: all 0.3s;">Pending Reports</a></li>
                             <li><a class="dropdown-item" href="account/logout.php" style="color: #C7253E; transition: all 0.3s;">Logout</a></li>

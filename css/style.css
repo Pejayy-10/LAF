@@ -120,23 +120,3 @@ section p {
 #notification-list a:hover {
     text-decoration: underline;
 }
-/* card customization */
-.card {
-    height: 100%; /* Ensures cards are consistent in height */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.card img {
-    height: 200px; 
-    width: 100%;
-    object-fit: cover; 
-    border-radius: 5px; 
-}

@@ -35,6 +35,10 @@
     background-color: #a61e32;
     border-color: #a61e32;
 }
+.form-control:focus {
+    border-color: #C7253E;
+    box-shadow: 0 0 0 0.2rem rgba(199, 37, 62, 0.25);
+}
 
 /* Card styles */
 .card-view {
