@@ -169,4 +169,28 @@ $(document).ready(function () {
     }
 });
 
+$(document).on('click', '.details-btn', function() {
+    const itemId = $(this).data('id');
+    const itemType = $(this).data('type');
+    console.log('Details button clicked, item ID:', itemId, 'type:', itemType);
+    
+    $.ajax({
+        url: 'modals/view_details_modal.php',
+        type: 'GET',
+        data: { 
+            item_id: itemId,
+            type: itemType
+        },
+        success: function(response) {
+            console.log('Response received:', response);
+            $('#modal-container').html(response);
+            $('#viewDetailsModal').modal('show');
+        },
+        error: function(xhr, status, error) {
+            console.error('Ajax error:', error);
+            alert('Error loading item details.');
+        }
+    });
+});
+
 })

@@ -17,6 +17,7 @@
     <script src="js/main.js"></script>
     <script src="js/search.js"></script>
     <script src="js/hero.js"></script>
+    <script src="js/profile_view.js"></script>
     
     <script>
         $(document).ready(function() {

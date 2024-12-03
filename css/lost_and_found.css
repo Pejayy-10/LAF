@@ -148,3 +148,23 @@
         padding-top: 70px;
     }
 }
+
+/* Add these styles at the end of the file */
+#viewDetailsModal .modal-body img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#viewDetailsModal dl {
+    margin-bottom: 0;
+}
+
+#viewDetailsModal dt {
+    font-weight: 600;
+    color: #666;
+}
+
+#viewDetailsModal dd {
+    margin-bottom: 0.5rem;
+}

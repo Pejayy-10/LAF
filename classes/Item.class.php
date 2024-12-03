@@ -134,8 +134,10 @@ class Item {
     public function fetchLostItemDetails($itemId) {
         try {
             $sql = "SELECT l.*, 
-                    (SELECT category_name FROM categories WHERE category_id = l.category) as category_name
+                    (SELECT category_name FROM categories WHERE category_id = l.category) as category_name,
+                    u.username as reporter_name
                     FROM lost_items l 
+                    LEFT JOIN users u ON l.user_id = u.user_id
                     WHERE l.item_id = :item_id";
             $stmt = $this->db->connect()->prepare($sql);
             $stmt->bindParam(':item_id', $itemId, PDO::PARAM_INT);
@@ -149,8 +151,10 @@ class Item {
     public function fetchFoundItemDetails($itemId) {
         try {
             $sql = "SELECT f.*, 
-                    (SELECT category_name FROM categories WHERE category_id = f.category) as category_name
+                    (SELECT category_name FROM categories WHERE category_id = f.category) as category_name,
+                    u.username as reporter_name
                     FROM found_items f 
+                    LEFT JOIN users u ON f.user_id = u.user_id
                     WHERE f.item_id = :item_id";
             $stmt = $this->db->connect()->prepare($sql);
             $stmt->bindParam(':item_id', $itemId, PDO::PARAM_INT);
@@ -159,6 +163,18 @@ class Item {
         } catch (Exception $e) {
             throw new Exception("Error fetching found item details: " . $e->getMessage());
         }
+    }
+
+    public function fetchItemDetails($itemId) {
+        $sql = "SELECT i.*, c.category_name, u.full_name as reporter_name
+                FROM items i
+                LEFT JOIN categories c ON i.category_id = c.category_id
+                LEFT JOIN users u ON i.reporter_id = u.user_id
+                WHERE i.item_id = ?";
+        
+        $stmt = $this->db->connect()->prepare($sql);
+        $stmt->execute([$itemId]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 }
 ?>

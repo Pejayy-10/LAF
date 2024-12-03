@@ -1,21 +1,32 @@
-$(document).ready(function () {
-    $('#openProfileModal').click(function () {
-        // Load the modal HTML dynamically using AJAX
+$(document).ready(function() {
+    
+    
+    $(document).on('click', '#openProfileModal', function(e) {
+        e.preventDefault();
+        
+        // Remove any existing profile modals first
+        if ($('#profileModal').length) {
+            $('#profileModal').modal('hide');
+            $('#profileModal').remove();
+        }
+        
         $.ajax({
-            url: 'profile-modal.html', // Path to the modal HTML
-            success: function (data) {
-                // Append the modal HTML to the body
-                $('body').append(data);
-                // Show the modal
-                $('#profileModal').modal('show');
-
-                // Remove the modal from the DOM after it is closed
-                $('#profileModal').on('hidden.bs.modal', function () {
-                    $(this).remove();
-                });
+            url: 'modals/profile_view_modal.html',
+            type: 'GET',
+            cache: false,
+            success: function(data) {
+                // Insert into modal container
+                $('#modal-container').html(data);
+                
+                // Initialize and show the modal after a short delay
+                setTimeout(function() {
+                    var profileModal = new bootstrap.Modal(document.getElementById('profileModal'));
+                    profileModal.show();
+                }, 100);
             },
-            error: function () {
-                alert('Failed to load the modal. Please try again.');
+            error: function(xhr, status, error) {
+                console.error('Modal load error:', error);
+                alert('Failed to load profile modal. Please try again.');
             }
         });
     });
