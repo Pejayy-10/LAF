@@ -39,7 +39,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: -10px;
-    padding-top: 20px;
+    padding-top: 70px;
+    margin-left: 250px;
 }
 
 .card-view .col-md-3 {

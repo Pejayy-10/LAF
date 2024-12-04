@@ -17,12 +17,12 @@
                         <span class="welcome-text" style="color: #C7253E; font-weight: bold;">Welcome, <?= htmlspecialchars($_SESSION['username']) ?>!</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="user/hero.html" id="Home" role="button" style="color: #C7253E; font-weight: bold;">
+                        <a class="nav-link" href="#" data-page="user/hero.html" role="button" style="color: #C7253E; font-weight: bold;">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="Home" role="button" style="color: #C7253E; font-weight: bold;">
+                        <a class="nav-link" href="#" data-page="user/lost_and_found.php" role="button" style="color: #C7253E; font-weight: bold;">
                             Lost and Found
                         </a>
                     </li>
@@ -33,7 +33,7 @@
                     </li>
                     <li class="nav-item">
                         <!-- sample link -->
-                        <a class="nav-link" href="#" id="Home" role="button" style="color: #C7253E; font-weight: bold;">
+                        <a class="nav-link" href="#" data-page="user/about.html" role="button" style="color: #C7253E; font-weight: bold;">
                             About Us
                         </a>
                     </li>
@@ -43,8 +43,8 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
                             <li><a class="dropdown-item" href="#" id="openProfileModal" style="color: #C7253E; transition: all 0.3s;">Profile View</a></li>
-                            <li><a class="dropdown-item" href="report_history.php" style="color: #C7253E; transition: all 0.3s;">Report History</a></li>
-                            <li><a class="dropdown-item" href="pending_reports.php" style="color: #C7253E; transition: all 0.3s;">Pending Reports</a></li>
+                            <li><a class="dropdown-item" href="#" data-page="user/report_history.php" style="color: #C7253E; transition: all 0.3s;">Report History</a></li>
+                            <li><a class="dropdown-item" href="#" data-page="user/pending_reports.php" style="color: #C7253E; transition: all 0.3s;">Pending Reports</a></li>
                             <li><a class="dropdown-item" href="account/logout.php" style="color: #C7253E; transition: all 0.3s;">Logout</a></li>
                         </ul>
                     </li>
